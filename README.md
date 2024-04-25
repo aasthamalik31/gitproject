@@ -15,6 +15,9 @@ The ‘User Details’ page is assigned to collect the user info of the voters a
 Animations are used on the Contestant page and a real-time timer is displayed at the bottom.
 Thanks page to assure the voters that their vote has been registered.
 Results page to display the result.
+The project is made using different tags of html, different styles of CSS and different concepts of Java, their co-relation with each other,so our major takeaways are the uses of these tags, properties and become familiar and comfortable with them.
+
+
 
 
 
