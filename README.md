@@ -18,6 +18,7 @@ Results page to display the result.
 The project is made using different tags of html, different styles of CSS and different concepts of Java, their co-relation with each other,so our major takeaways are the uses of these tags, properties and become familiar and comfortable with them.
 
 VERSIONS AND MODIFICATIONS:
+
 Version 1:
 1) The first version consists of web pages made using HTML and CSS.
 2) Bigg Boss cover page and its ott logo to give  a sense of security in minds of the users.
