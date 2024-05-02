@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress-bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShehnaazGill{
+    background: #e91e63;
+    animation: ShehnaazGill 4s linear forwards;
+}
+
+.GautamGulati{
+    background:#cddc39;
+    animation: GautamGulati 4s linear forwards;
+}
+
+.KaranKundra{
+    background: #00bcd4;
+    animation: KaranKundra 4s linear forwards;
+}
+
+.PrinceNarula{
+    background: #ffeb3b;
+    animation: PrinceNarula 4s linear forwards;
+}
+
+.DhinchakPooja{
+    background: #9c27b0;
+    animation: DhinchakPooja 4s linear forwards;
+}
+
+.ShehnaazGill span{
+    border: 1px solid #e91e63;
+}
+
+.GautamGulati span{
+    border: 1px solid #cddc39;
+}
+
+.KaranKundra span{
+    border: 1px solid #00bcd4;
+}
+
+.PrinceNarula span{
+    border:1px solid #ffeb3b;
+}
+
+.DhinchakPooja span{
+    border:1px solid #9c27b0 ;
+}
+
+@keyframes ShehnaazGill{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes GautamGulati{
+    100%{
+        width: 74%;
+    }
+}
+@keyframes KaranKundra{
+    100%{
+        width: 65%;
+    }
+}
+@keyframes PrinceNarula {
+    100%{
+        width: 54%;
+    }
+}
+@keyframes DhinchakPooja{
+    100%{
+        width:49%;
+    }
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background:rgba(0, 0, 0, 0.2);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 55px;
+}
+
+nav .results{
+    width: 25%;
+    text-align: center;
+    
+
+}
