@@ -28,11 +28,14 @@ Version 1:
 
 Version 2:
 1) The second version consists of web pages made using CSS along with HTML.
-5) Animations are used on the Contestant page to make it look professional and skillful.
-6) Thanks page to assure the voters that their vote has been registered.
-7) 4) The ‘User Details’ page is assigned to collect the user info of the voters.
-5) A checkbox is proived with terms and conditions page link.
-9) We have made an extensive use of animaton templates.
+2) Animations are used on the Contestant page to make it look professional and skillful.
+3) Thanks page to assure the voters that their vote has been registered.
+4) The ‘User Details’ page is assigned to collect the user info of the voters.
+5) A checkbox is provied with terms and conditions page link.
+6) We have used CSS to enhance the first version.
+
+Version 3:
+1) The third version consists of web pages made using Java
 
 
 
