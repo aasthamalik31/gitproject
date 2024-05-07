@@ -23,16 +23,16 @@ Version 1:
 1) The first version consists of web pages made using HTML.
 2) Bigg Boss cover page and its ott logo to give a sense of security in minds of the users.
 3) Navigaton buttons given to navigate between different webpages through interlinking.
-4) The ‘User Details’ page is assigned to collect the user info of the voters.
-5) A checkbox is proived with terms and conditions page link.
+4) Results page to display the result.
 
 
 Version 2:
-1) The second version consists of web pages made using CSS alon with HTML
+1) The second version consists of web pages made using CSS along with HTML.
 5) Animations are used on the Contestant page to make it look professional and skillful.
 6) Thanks page to assure the voters that their vote has been registered.
-7) Results page to display the result.
-8) We have made an extensive use of animaton templates.
+7) 4) The ‘User Details’ page is assigned to collect the user info of the voters.
+5) A checkbox is proived with terms and conditions page link.
+9) We have made an extensive use of animaton templates.
 
 
 
