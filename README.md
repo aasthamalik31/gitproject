@@ -35,7 +35,7 @@ Version 2:
 6) We have used CSS to enhance the first version.
 
 Version 3:
-1) The third version consists of web pages made using Java.
+1) The third version consists of web pages made using Java
 
 
 
