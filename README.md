@@ -18,14 +18,14 @@ Results page to display the result.
 The project is made using different tags of html, different styles of CSS and different concepts of Java, their co-relation with each other,so our major takeaways are the uses of these tags, properties and become familiar and comfortable with them.
 
 Project Roles:
-Project Manager- Aaradhya Manak
-A proficient project manager for a front-end project orchestrates seamless collaboration between designers and developers, ensuring alignment with client requirements and industry best practices. They adeptly navigate timelines, prioritize tasks, and foster a creative environment conducive to innovation and efficient delivery.
+Project Manager- Aaradhya Manak<br>
+A proficient project manager for a front-end project orchestrates seamless collaboration between designers and developers, ensuring alignment with client requirements and industry best practices. They adeptly navigate timelines, prioritize tasks, and foster a creative environment conducive to innovation and efficient delivery.<br><br>
 
-Developer- Aaron Vijay Singh
-The developer behind the code of a front-end project brings vision to life through meticulous coding, crafting user-centric experiences with precision and creativity. Their expertise lies in translating design concepts into functional, responsive interfaces, optimizing performance and usability for seamless user interaction.
+Developer- Aaron Vijay Singh<br>
+The developer behind the code of a front-end project brings vision to life through meticulous coding, crafting user-centric experiences with precision and creativity. Their expertise lies in translating design concepts into functional, responsive interfaces, optimizing performance and usability for seamless user interaction.<br><br>
 
-Tester- Aastha Malik
-The tester diligently scrutinizes the front-end code, meticulously hunting for bugs and glitches to ensure the final product meets the highest standards of quality and reliability. Their keen eye for detail and systematic approach uncovers potential pitfalls, allowing for thorough debugging and refinement, ultimately delivering a polished and flawless user experience.
+Tester- Aastha Malik<br>
+The tester diligently scrutinizes the front-end code, meticulously hunting for bugs and glitches to ensure the final product meets the highest standards of quality and reliability. Their keen eye for detail and systematic approach uncovers potential pitfalls, allowing for thorough debugging and refinement, ultimately delivering a polished and flawless user experience.<br><br>
 
 VERSIONS AND MODIFICATIONS:
 
