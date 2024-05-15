@@ -12,15 +12,14 @@ div{
 </style>
 </head>
 <body>
-//<script>
-  //   function validateForm() {
-  //     var mobileNumber = document.getElementById("phoneNo").value;
-  //     var checkbox = document.getElementById("yourCheckboxId");
-  //     var confirmButton = document.getElementById("confirmButton");
-
-  //     if (/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
-  //       window.location.href = "file:///C:/Fee%20Project%20main/Fee%20Project/contestant%20page.html";}
-	//   else {
+<script>
+  function validateForm() {
+	  var mobileNumber = document.getElementById("phoneNo").value;
+	  var checkbox = document.getElementById("yourCheckboxId");
+	  var confirmButton = document.getElementById("confirmButton");
+	  if (/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
+		  window.location.href = "file:///C:/Fee%20Project%20main/Fee%20Project/contestant%20page.html";}
+	  else {
   //       if (!/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
   //         alert("Please enter a valid 10-digit phone number!");
   //       } else if (/^\d{10}$/.test(mobileNumber) && !checkbox.checked) {
