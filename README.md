@@ -17,7 +17,7 @@ Thanks page to assure the voters that their vote has been registered.
 Results page to display the result.
 The project is made using different tags of html, different styles of CSS and different concepts of Java, their co-relation with each other,so our major takeaways are the uses of these tags, properties and become familiar and comfortable with them.
 
-Project Roles:
+Project Roles:<br>
 Project Manager- Aaradhya Manak<br>
 A proficient project manager for a front-end project orchestrates seamless collaboration between designers and developers, ensuring alignment with client requirements and industry best practices. They adeptly navigate timelines, prioritize tasks, and foster a creative environment conducive to innovation and efficient delivery.<br><br>
 
