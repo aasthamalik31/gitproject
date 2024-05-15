@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+    <style>
+        .body{
+     background-image:url("backFind7.jpg");
+	 background-repeat:no-repeat;
+}
+        .parent{
+        margin-top:54px;
+       border-color: black;
+       }
+       .child{
+        display:inline-block;
+        vertical-align: middle;
+        border-radius: 25px;
+        background-color:beige;
+        width:400px;
+        height:630px;
+        margin-left:200px;
+       }
+       .textChild{
+        display:inline-block;
+        margin-left: 20px;
+        vertical-align:middle;
+       }
+       .photo1{
+        border-radius:50%;
+        background-color: rgba(0, 0, 0, 1);
+       }
+       .img{
+          animation:fadeIn 2s ease-in-out forwards;
+          border-radius:25px;
+       }
+       @keyframes drop{
+        0%{transform: translateY(-200px) scaleY(0.9);}
+        5%{opacity:0.7;}
+        50%{transform: translateY(0px) scaleY(1);}
+        65%{transform: translateY(-17px) sacleY(0.9);}
+        75%{transform: translateY(-22px) scaleY(0.9);}
+        100%{transform: translateY(0px) scaleY(1);
+        opacity:1;}
+       }
+       @keyframes fadeIn{
+       0% {opacity:0;}
+       100% {opacity:0.4;}}
+       #imagecontainer{
+                position:relative;
+                display:inline-block;
+                height:629.6px;
+                width:400px;
+            }
+            #imagecontainer img{
+                display:block;
+                background-color: rgba(0, 0, 0, 0.8);
+                opacity: 0.7; 
+            }
+            #imagecontainer p{
+                position: absolute;
+                top:1%;
+                left:0%;
+                transform:translate(-50%,-50%);
+                color:ivory;
+                padding:10px;
+                border-radius: 5px;
+                animation:drop 1s linear forwards;
+                font-size:25px;
+                font-weight: bolder;
+            }
+            .darkened-image {
+            position: relative;
+            display: inline-block;
+        }
+        .darkened-image img {
+            display: block;
+            max-width: 100%;
+            opacity: 0.7;
+        }
+        .dark-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black overlay */
+        }
+       </style>
+       </head>
+       <script>
+        function Insertimage1(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season17.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br><br>With a mic in hand and an arsenal of jokes, Munawar Faruqui didn't just tickle funny bones, he tickled his way into the hearts of millions, emerging victorious as the reigning champion of Bigg Boss Season 17.</p>";
+        }
+            function Insertimage2(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season16.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br><br>Rising from the streets with a mic in hand and a fire in his soul, MC Stan didn't just conquer the stage, he conquered hearts, minds, and now, the coveted crown of Bigg Boss Season 16. </p>";
+            }
+            function Insertimage3(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season15.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br>From dazzling the screens with her impeccable acting prowess to winning hearts with her infectious charisma, Tejaswwi Prakash isn't just an actress; she's a force of nature. With every performance, she etched her name in the annals of entertainment history, proving that true stardom knows no bounds. </p>";
+            }
+            function Insertimage4(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season14.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br>From gracing the silver screen with her impeccable performances to captivating audiences with her unwavering strength, Rubina Dilaik isn't just an actress; she's an inspiration. With every role, she breathed life into characters, leaving an indelible mark on the canvas of entertainment.</p>";
+            }
+            function Insertimage5(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season13.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br><br>The dashing heartthrob who conquered the hearts of millions and emerged victorious as the ultimate champion of Bigg Boss Season 13! From gracing the small screen with his captivating performances to winning over audiences with his charismatic persona.</p>";
+            }
+            function Insertimage6(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season12.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br><br><br>Step into the spotlight and behold the radiant talent and undeniable grace of Dipika Kakar, the reigning queen of hearts who captivated audiences and clinched the crown of Bigg Boss Season 12! </p>";
+            }
+            function Insertimage7(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season11.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br>From tickling funny bones in 'Bhabi Ji Ghar Par Hain' to winning over audiences with her magnetic presence, Shilpa Shinde isn't just an actress; she's a true embodiment of talent and grace, who stole hearts and claimed victory as the cherished champion of Bigg Boss Season 11!</p>";
+            }
+            function Insertimage8(){
+            var imagecontainer=document.getElementById("imagecontainer");
+            imagecontainer.innerHTML='<img src="season10.jpg" height="629.6px" width="400px" class="img">';
+            imagecontainer.innerHTML+="<p><br><br><br><br><br><br><br><br><br><br><br>From his humble beginnings to his meteoric rise to fame, Manveer Gurjar isn't just an actor; he's a symbol of resilience and determination. With every role, he showcased his versatility and passion, leaving an indelible mark on the landscape of entertainment.</p>";
+            }
+        </script>
+    <body class="body">
+        <div class="parent">
+            <div class="child" style="margin-left:250px">
+                
+                <p style="font-family:Arial, Helvetica, sans-serif;font-size:48px;text-align: center"><strong>Winners</strong><img src="C:\Users\DELL\Downloads\crown2.jpg" height="80px" width="80px"style="vertical-align:middle"></p>
+                <div style="height:440px; overflow-y:scroll">
+                    <div onmouseover="Insertimage1()">
+                        <p style="font-size: 50px;font-family:Arial, Helvetica, sans-serif"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\munawar.jpg" height="110px" width="120px" class="photo1"></div> 
+                           <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Munawar Faruqui</p><p style="color:grey;font-size: 15px">Season 17</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage2()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\mc stan.jpg" height="110px" width="120px" class="photo1"></div>
+                          <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">MC Stan</p><p style="color:grey;font-size:15px">Season 16</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage3()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\tejasswi.jpg" height="110px" width="120px" class="photo1"></div>
+                          <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Tejaswwi Prakash</p><p style="color:grey;font-size:15px">Season 15</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage4()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\rubina dilaik.jpg" height="110px" width="120px" class="photo1"></div>
+                          <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Rubina Dilaik</p><p style="color:grey;font-size:15px">Season 14</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage5()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\sidharth shukla.jpg" height="110px" width="120px" class="photo1"></div>
+                        <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Sidharth Shukla</p><p style="color:grey;font-size:15px">Season 13</p></strong></div></p>
+                    </div>  
+                    <div onmouseover="Insertimage6()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\DipikaKaka.jpg" height="110px" width="120px" class="photo1"></div>
+                        <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Dipika Kakar</p><p style="color:grey;font-size:15px">Season 12</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage7()">
+                        <p style="font-size: 30px"><div class="textChild">
+                        <img src="C:\Users\DELL\Downloads\shilpa shinde.jpg" height="110px" width="120px" class="photo1"></div>
+                        <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Shilpa Shinde</p><p style="color:grey;font-size:15px">Season 11</p></strong></div></p>
+                    </div>
+                    <div onmouseover="Insertimage8()">
+                        <p style="font-size: 30px"><div class="textChild">
+                            <img src="C:\Users\DELL\Downloads\manveer gurjar.jpg" height="110px" width="120px" class="photo1"></div>
+                            <div class="textChild"><strong></p><p style="font-family: Comic Sans MS">Manveer Gurjar</p><p style="color:grey;font-size:15px">Season 10</p></strong></div></p>
+                    </div>
+                </div>
+            </div>
+            <div class="child dark-overlay" style="margin-right:100px" id="imagecontainer"></div>
+        </div>
+    </body>
+    </html>
