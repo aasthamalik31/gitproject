@@ -24,6 +24,7 @@ Version 1:
 2) Bigg Boss cover page and its ott logo to give a sense of security in minds of the users.
 3) Navigaton buttons given to navigate between different webpages through interlinking.
 4) Results page to display the result.
+5) We've used HTML and CSS for programming.
 
 
 Version 2:
@@ -32,10 +33,17 @@ Version 2:
 3) Thanks page to assure the voters that their vote has been registered.
 4) The ‘User Details’ page is assigned to collect the user info of the voters.
 5) A checkbox is provied with terms and conditions page link.
-6) We have used CSS to enhance the first version.
+6) We have added modifications to the First page, contestant page and the result Page.
+7) We've added two more pages the Terms and Conditions page and Thamks page.
 
 Version 3:
-1) The third version consists of web pages made using Java
+1) We added some modifications to the first page like adding css font families, etc.
+2) We added a new page to display the previous winners of the past seasons.
+3) We added images of the User Details page and the Thanks page.
+4) We did some debugs in the first page, result page and user details page.
+
+Version 4:
+1) This is o
 
 
 
