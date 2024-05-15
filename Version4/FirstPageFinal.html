@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title> 
+        <link rel="stylesheet" href="stylee.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+	<script> 
+	function highlightVotingZone() {
+            var votingZone = document.querySelector("h3.voting-zone");
+            votingZone.style.backgroundColor = "#ffd700"; 
+        }
+
+        function resetVotingZone() {
+            var votingZone = document.querySelector("h3.voting-zone");
+            votingZone.style.backgroundColor = "#8E4585";
+        }
+
+	 
+            
+    </script>
+        <header>
+            <nav>
+                <div class="logo"><h1 class="animated infinite heartBeat">VOTE NOW</h1></div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="file:///C:/Fee%20Project%20main/Fee%20Project/user%20details.html">User Info</a>
+                    <a href="file:///C:/Fee%20Project%20main/Fee%20Project/t%20and%20c.html">Terms and Conditions</a>
+                    <a href="file:///C:/Fee%20Project%20main/Fee%20Project/contestant%20page.html">Contestants</a>
+                    <a href="file:///C:/Fee%20Project%20main/Fee%20Project/previousWinners.html">Previous Winners</a>
+                    <a href="file:///C:/Fee%20Project%20main/Fee%20Project/results.html">Results</a>
+                </div>
+                </nav>
+                <main>
+                    <section>
+                        <h3 class="voting-zone" onmouseover="highlightVotingZone()" onmouseout="resetVotingZone()">Bigg Boss Voting Zone</h3>
+
+					    <p id="demo">
+                        <a href="file:///C:/Fee%20Project%20main/Fee%20Project/user%20details.html" class="btnone">Click Here To Vote</a></p>
+                    </section>
+               </main>
+        </header>
+    </body>
+</html>
