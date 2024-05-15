@@ -20,17 +20,17 @@ div{
 	  if (/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
 		  window.location.href = "file:///C:/Fee%20Project%20main/Fee%20Project/contestant%20page.html";}
 	  else {
-  //       if (!/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
-  //         alert("Please enter a valid 10-digit phone number!");
-  //       } else if (/^\d{10}$/.test(mobileNumber) && !checkbox.checked) {
-  //         alert("Please accept the T&Cs.");
-  //       } else {
-  //         alert("Please enter a valid 10-digit phone number and accept the T&Cs.");
-	// 	 true
-  //       }
-  //     }
-  //   }
-  // </script>
+		if (!/^\d{10}$/.test(mobileNumber) && checkbox.checked) {
+		 alert("Please enter a valid 10-digit phone number!");
+		} else if (/^\d{10}$/.test(mobileNumber) && !checkbox.checked) {
+		 alert("Please accept the T&Cs.");
+		 } else {
+		alert("Please enter a valid 10-digit phone number and accept the T&Cs.");
+			true
+		 }
+	     }
+	}
+  </script>
 <h1 style="text-align:center; font-size:30px; color:purple; font-family:georgia,garamond;">ENTER YOUR DETAILS</h1>
 <div style="margin-left:520px; margin-top:100px;">
 <form onsubmit="validateMobileNumber(event)">
