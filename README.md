@@ -43,7 +43,11 @@ Version 3:
 4) We did some debugs in the first page, result page and user details page.
 
 Version 4:
-1) This is o
+1) This is our final version.
+2) We added javascript to many pages to accomodate the following features.
+3) We used form validations in our User details page to ensure a valid phone number is entered and the T&Cs are accepted.
+4) We added a real-time countdown timer,in our Contestant page, to display the time left for the voting lines to clode.
+5) We also added form validation to our Contestant page 
 
 
 
